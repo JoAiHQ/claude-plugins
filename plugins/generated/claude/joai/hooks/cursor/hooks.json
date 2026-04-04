@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "command": "bash ${CURSOR_PROJECT_DIR}/.cursor/hooks/session-start.sh",
+        "timeout": 15
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "command": "bash ${CURSOR_PROJECT_DIR}/.cursor/hooks/pre-tool-use.sh",
+        "timeout": 3660
+      }
+    ],
+    "stop": [
+      {
+        "type": "command",
+        "command": "bash ${CURSOR_PROJECT_DIR}/.cursor/hooks/report-stop.sh",
+        "timeout": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "joai-cal-com",
+  "version": "0.1.0",
+  "description": "Connect Cal.com to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai"
+  }
+}
