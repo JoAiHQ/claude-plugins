@@ -1,0 +1,9 @@
+{
+  "name": "joai-email",
+  "version": "0.3.0",
+  "description": "Connect Email to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai"
+  }
+}
