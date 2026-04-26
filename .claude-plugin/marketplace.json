@@ -1,0 +1,986 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "joai-claude-plugins",
+  "metadata": {
+    "description": "JoAi plugins"
+  },
+  "description": "JoAi plugins",
+  "owner": {
+    "name": "JoAi",
+    "email": "support@joai.ai"
+  },
+  "plugins": [
+    {
+      "name": "joai",
+      "description": "JoAi plugin",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/claude",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-activity",
+      "description": "Connect Activity to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/activity",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-ai-calendar",
+      "description": "Connect AI Calendar to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/ai-calendar",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-ai-email",
+      "description": "Connect AI Email to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/ai-email",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-aiustria",
+      "description": "Connect AIustria to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/aiustria",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-allowance",
+      "description": "Connect Allowance to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/allowance",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-anthropic",
+      "description": "Connect Anthropic to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/anthropic",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-apple",
+      "description": "Connect Apple to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/apple",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-appointment",
+      "description": "Connect Appointment to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/appointment",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-asset",
+      "description": "Connect Asset to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/asset",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-bluesky",
+      "description": "Connect Bluesky to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/bluesky",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-browser",
+      "description": "Connect Browser to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/browser",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-cal-com",
+      "description": "Connect Cal.com to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/cal-com",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-certificate",
+      "description": "Connect Certificate to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/certificate",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-challenge",
+      "description": "Connect Challenge to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/challenge",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-cli",
+      "description": "Connect CLI to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/cli",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-cloudflare",
+      "description": "Connect Cloudflare to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/cloudflare",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-colombia-staking",
+      "description": "Connect Colombia Staking to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/colombia-staking",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-content",
+      "description": "Connect Content to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/content",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-coupon",
+      "description": "Connect Coupon to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/coupon",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-cursor",
+      "description": "Connect Cursor to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/cursor",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-deepbook",
+      "description": "Connect Deepbook to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/deepbook",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-eapes",
+      "description": "Connect EAPES to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/eapes",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-elevenlabs",
+      "description": "Connect ElevenLabs to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/elevenlabs",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-file",
+      "description": "Connect File to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/file",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-firecrawl",
+      "description": "Connect Firecrawl to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/firecrawl",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-followups",
+      "description": "Connect Followups to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/followups",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-form",
+      "description": "Connect Form to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/form",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-gemini",
+      "description": "Connect Gemini to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/gemini",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-github",
+      "description": "Connect GitHub to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/github",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-google-maps",
+      "description": "Connect Google Maps to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/google-maps",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-gumroad",
+      "description": "Connect Gumroad to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/gumroad",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-hatom",
+      "description": "Connect Hatom to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/hatom",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-hellocash",
+      "description": "Connect helloCash to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/hellocash",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-http",
+      "description": "Connect HTTP to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/http",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-inception-network",
+      "description": "Connect Inception Network to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/inception-network",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-jito",
+      "description": "Connect Jito to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/jito",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-joai",
+      "description": "Connect JoAi to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/joai",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-jupiter",
+      "description": "Connect Jupiter to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/jupiter",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-laravel-cloud",
+      "description": "Connect Laravel Cloud to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/laravel-cloud",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-lemon-squeezy",
+      "description": "Connect Lemon Squeezy to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/lemon-squeezy",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-linear",
+      "description": "Connect Linear to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/linear",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-loyalty",
+      "description": "Connect Loyalty to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/loyalty",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-mailcoach",
+      "description": "Connect Mailcoach to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/mailcoach",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-medium",
+      "description": "Connect Medium to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/medium",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-mregld",
+      "description": "Connect MrEGLD to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/mregld",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-multiversx",
+      "description": "Connect MultiversX to Claude, Codex, and ChatGPT. Check balances, view transactions, manage staking, and interact with ESDT tokens through natural language.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/multiversx",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-omniset",
+      "description": "Connect OmniSet to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/omniset",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-oox",
+      "description": "Connect OOX to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/oox",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-openai",
+      "description": "Connect OpenAI to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/openai",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-openbond",
+      "description": "Connect OpenBond to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/openbond",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-opencode",
+      "description": "Connect OpenCode to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/opencode",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-outreach",
+      "description": "Connect Outreach to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/outreach",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-peerme",
+      "description": "Connect PeerMe to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/peerme",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-poll",
+      "description": "Connect Poll to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/poll",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-polymarket",
+      "description": "Connect Polymarket to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/polymarket",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-projectx",
+      "description": "Connect ProjectX to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/projectx",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-readwise",
+      "description": "Connect Readwise to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/readwise",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-reddit",
+      "description": "Connect Reddit to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/reddit",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-replicate",
+      "description": "Connect Replicate to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/replicate",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-resend",
+      "description": "Connect Resend to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/resend",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-sentry",
+      "description": "Connect Sentry to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/sentry",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-shop",
+      "description": "Connect Shop to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/shop",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-shopify",
+      "description": "Connect Shopify to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/shopify",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-signature",
+      "description": "Connect Signature to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/signature",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-social",
+      "description": "Connect Social to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/social",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-solana",
+      "description": "Connect Solana to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/solana",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-spotify",
+      "description": "Connect Spotify to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/spotify",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-stripe",
+      "description": "Connect Stripe to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/stripe",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-sui",
+      "description": "Connect Sui to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/sui",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-supabase",
+      "description": "Connect Supabase to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/supabase",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-telegram",
+      "description": "Connect Telegram to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/telegram",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-threads",
+      "description": "Connect Threads to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/threads",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-typefully",
+      "description": "Connect Typefully to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/typefully",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-upsells",
+      "description": "Connect Upsells to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/upsells",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-whatsapp",
+      "description": "Connect WhatsApp to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/whatsapp",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-x",
+      "description": "Connect X to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/x",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-xalliance",
+      "description": "Connect xAlliance to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/xalliance",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-xexchange",
+      "description": "Connect xExchange to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/xexchange",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-xmoney",
+      "description": "Connect xMoney to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/xmoney",
+      "category": "productivity",
+      "strict": false
+    },
+    {
+      "name": "joai-xoxno",
+      "description": "Connect XOXNO to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+      "version": "0.3.0",
+      "author": {
+        "name": "JoAi",
+        "email": "support@joai.ai"
+      },
+      "source": "./plugins/generated/claude/xoxno",
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
