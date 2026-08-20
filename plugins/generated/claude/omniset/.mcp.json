@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-omniset": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/omniset"
+    }
+  }
+}
