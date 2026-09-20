@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-laravel-cloud": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/laravel-cloud"
+    }
+  }
+}
