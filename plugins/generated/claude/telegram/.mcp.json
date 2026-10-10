@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-telegram": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/telegram"
+    }
+  }
+}

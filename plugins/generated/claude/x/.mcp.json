@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-x": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/x"
+    }
+  }
+}

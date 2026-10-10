@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-google-maps": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/google-maps"
+    }
+  }
+}
