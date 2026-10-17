@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-polymarket": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/polymarket"
+    }
+  }
+}
