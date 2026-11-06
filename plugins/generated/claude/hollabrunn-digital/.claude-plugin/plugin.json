@@ -1,0 +1,9 @@
+{
+  "name": "joai-hollabrunn-digital",
+  "version": "0.3.0",
+  "description": "Connect Hollabrunn.Digital to ChatGPT, Claude, Codex, and Cursor — find local businesses, book appointments, and help partners join the directory.",
+  "author": {
+    "name": "JoAi",
+    "email": "micha@vleap.at"
+  }
+}

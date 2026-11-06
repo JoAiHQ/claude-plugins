@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-aiustria": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/aiustria"
+    }
+  }
+}
