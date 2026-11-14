@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-elevenlabs": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/elevenlabs"
+    }
+  }
+}
