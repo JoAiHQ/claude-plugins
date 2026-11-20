@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "joai-xmoney": {
+      "type": "streamable-http",
+      "url": "https://cortex.joai.ai/mcp/apps/xmoney"
+    }
+  }
+}
