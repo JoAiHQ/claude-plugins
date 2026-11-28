@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "joai-resend": {
+      "type": "http",
+      "url": "https://cortex.joai.ai/mcp/apps/resend"
+    }
+  }
+}
